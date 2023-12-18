@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.weblogo{
+    width: 65px;
+}
+.moblogo{
+  display: none;
+}
+.navbar{
+    background: #00000082!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.navbar-nav li a:hover{
+  background: orange;
+  transition: .3s;
+}
+.a {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+}
+.b {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+}
+.image {
+  width: 80%;
+}
+.c {
+  background-image: url(../Image/back.jpg);
+  width: 100%;
+}
+.d {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-left: 5px;
+  text-align: center;
+  color: white;
+  margin-top: 130px;
+}
+.e {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-left: 5px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.ex {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+  margin-bottom: 32px;
+}
+.f {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+}
+.foot p {
+  line-height: 30px;
+  word-spacing: 1px;
+  font-size: 18px;
+  color: aliceblue;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.aaa{
+        padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .moblogo{
+    display: block;
+  }
+  .weblogo{
+    display: none;
+  }
+  .navbar{
+    background: #fbac1b!important;
+}
+    /* .navbar-nav li a{
+      margin-bottom: ;
+    } */
+}
